@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin | Ashish Varankar</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-page-hero">
+      <div class="container">
+        <p class="section-eyebrow">Admin</p>
+        <h1>Contact submissions</h1>
+      </div>
+    </section>
+
+    <section class="admin-content">
+      <div class="container">
+        <div class="admin-toolbar">
+          <p class="section-description">Review contact form submissions and mark messages as read.</p>
+          <div id="admin-status" class="admin-status">Loading submissions...</div>
+        </div>
+        <div id="submissions-list" class="admin-submission-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <h3>Ashish Varankar</h3>
+        <p>IT Infrastructure Specialist | Network Security Expert | AI &amp; Automation Enthusiast</p>
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/ashish-varankar" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://dribbble.com/ashish-varankar" target="_blank" rel="noopener">Dribbble</a>
+        <a href="https://github.com/ashish-varankar" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="container footer-copyright">
+      <p>© 2026 Ashish Varankar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="supabase-config.js" defer></script>
+  <script src="admin.js" defer></script>
+</body>
+</html>
