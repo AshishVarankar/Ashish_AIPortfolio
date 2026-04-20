@@ -192,7 +192,7 @@ a {
 
 .hero-description {
   max-width: 680px;
-  margin: 0 auto 2.25rem;
+  margin: 0 auto 1.25rem;
   color: #d5e0d4;
   line-height: 1.8;
   font-size: 0.8rem;
@@ -399,7 +399,6 @@ a {
 
 .project-tag {
   display: inline-flex;
-  padding: 0.45rem 0.9rem;
   border-radius: 999px;
   background: #eff6ff;
   color: #0f172a;
@@ -825,7 +824,6 @@ a {
 
 .projects-hero,
 .contact-page-hero {
-  padding: 6rem 0 3rem;
   color: #ffffff;
 }
 
@@ -907,11 +905,13 @@ a {
 
 .projects-hero .hero-description,
 .contact-page-hero p {
-  margin: 1.5rem auto 0;
+   margin: 0.5rem 0 0;   /* removes auto centering */
   max-width: 740px;
   color: #d5e0d4;
   line-height: 1.8;
   font-size: 1.05rem;
+  font-weight: 400;
+  text-align: left;
 }
 
 .projects-hero h1,
@@ -976,8 +976,6 @@ a {
 .project-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.65rem;
-  margin: 1rem 0 1.5rem;
 }
 
 .project-tag {
